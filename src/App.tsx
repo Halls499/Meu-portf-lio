@@ -140,7 +140,20 @@ function App() {
                 e através de sliders, onde o usuário desliza um botão para definir a cor que ele quer, além de 
                 sempre mostrar o código RGB e HEX das cores nas três opções.
               </p>
-              <a href="https://halls499.github.io/mediaAluno/">Ver Projeto</a>
+              <a href="https://gerador-de-cores-ellt.vercel.app/">Ver Projeto</a>
+            </div>
+
+            <div className="projeto">
+              <h2>Site para Gerar Favicons</h2>
+              <p>
+                Gerador de favicon desenvolvido como aplicação web interativa que permite 
+                criar ícones personalizados para sites de forma rápida e intuitiva. A ferramenta 
+                possibilita adicionar texto, emojis ou imagens enviadas pelo usuário, além de 
+                personalizar cores, formato e tamanho do ícone. Todas as alterações são exibidas 
+                em tempo real, permitindo visualizar o resultado antes de realizar o download do 
+                favicon pronto para uso.
+              </p>
+              <a href="https://gerador-de-favicon.vercel.app/">Ver Projeto</a>
             </div>
 
           </div>
