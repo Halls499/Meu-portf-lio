@@ -131,6 +131,18 @@ function App() {
               <a href="https://halls499.github.io/mediaAluno/">Ver Projeto</a>
             </div>
 
+            <div className="projeto">
+              <h2>Site para Gerar Cores</h2>
+              <p>
+                Aplicação web desenvolvida para gerar cores de três formas diferentes, sendo elas:
+                Aleatoriamente, onde o usuário clica num botão e o site gera uma cor aleatória; por digitação,
+                onde o usuário digita a cor que ele quer, podendo ser "fogo", "verde limão", entre outras opções;
+                e através de sliders, onde o usuário desliza um botão para definir a cor que ele quer, além de 
+                sempre mostrar o código RGB e HEX das cores nas três opções.
+              </p>
+              <a href="https://halls499.github.io/mediaAluno/">Ver Projeto</a>
+            </div>
+
           </div>
         </section>
 
