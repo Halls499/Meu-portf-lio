@@ -37,14 +37,14 @@ function App() {
         <section id="sobre" className="section-container">
           <h2>Sobre Mim</h2>
 
-          <p>
-            Olá! Meu nome é Raul, nasci em 2009 e sou natural de Peruíbe.
+          <p className="txt">
+            Olá! Meu nome é Raul, nasci em 2009 e sou natural de São Paulo, e moro em Peruíbe.
             Atualmente, estou no 3º ano da Etec de Peruíbe.
           </p>
 
           <ul className="lista">
-            <li>Conhecimento em HTML e CSS</li>
-            <li>Uso de Git</li>
+            <li>Programação em JavaScript</li>
+            <li>Desenvolvimento web responsivo</li>
             <li>Busca constante por aprendizado</li>
           </ul>
         </section>
@@ -55,7 +55,7 @@ function App() {
           <div className="projetos">
             <div className="projeto">
               <h2>Site da Turma de Desenvolvimento de Sistemas (2024–2026)</h2>
-              <p>
+              <p className="explicacoes">
                 Site desenvolvido para organizar e disponibilizar atividades,
                 conteúdos e materiais produzidos pela turma de Desenvolvimento
                 de Sistemas ao longo do curso. O projeto tem como objetivo
@@ -67,7 +67,7 @@ function App() {
 
             <div className="projeto">
               <h2>SuporTec</h2>
-              <p>
+              <p className="explicacoes">
                 Sistema SaaS B2B de gestão e suporte de TI, projetado com
                 arquitetura multi-usuário (cliente e técnico). Permite que
                 clientes abram chamados, acompanhem o status em tempo real e
@@ -80,7 +80,7 @@ function App() {
 
             <div className="projeto">
               <h2>QuizMania</h2>
-              <p>
+              <p className="explicacoes">
                 Aplicação web de quiz interativo com perguntas de diversas
                 categorias, como ciência, história, tecnologia, esportes e
                 entretenimento. O projeto foi desenvolvido para explorar lógica
@@ -92,7 +92,7 @@ function App() {
 
             <div className="projeto">
               <h2>Site para Gráfica</h2>
-              <p>
+              <p className="explicacoes">
                 Site institucional desenvolvido para a empresa Ideal Design
                 Gráfica, com o objetivo de apresentar seus serviços, fortalecer
                 sua presença digital e facilitar o contato com clientes
@@ -103,7 +103,7 @@ function App() {
 
             <div className="projeto">
               <h2>Aplicativo Mobile de Desenho</h2>
-              <p>
+              <p className="explicacoes">
                 Aplicativo mobile que permite ao usuário criar desenhos
                 digitais, selecionar cores, ajustar o tamanho do pincel e salvar
                 as criações como imagem. O projeto foi desenvolvido com foco na
@@ -116,7 +116,7 @@ function App() {
 
             <div className="projeto">
               <h2>Página com Manipulação de DOM (AppendChild)</h2>
-              <p>
+              <p className="explicacoes">
                 Projeto desenvolvido em parceria com outro aluno com foco no
                 estudo de manipulação do DOM em JavaScript. A aplicação permite
                 criar listas dinâmicas e mover elementos entre elas utilizando
@@ -127,7 +127,7 @@ function App() {
 
             <div className="projeto">
               <h2>Aplicativo de Controle de Hidratação</h2>
-              <p>
+              <p className="explicacoes">
                 Aplicativo mobile criado para auxiliar usuários no
                 acompanhamento da ingestão diária de água. A aplicação incentiva
                 hábitos saudáveis por meio de um controle simples e intuitivo do
@@ -140,7 +140,7 @@ function App() {
 
             <div className="projeto">
               <h2>Calculadora</h2>
-              <p>
+              <p className="explicacoes">
                 Calculadora responsiva desenvolvida para dispositivos móveis e
                 computadores. O projeto foi um dos primeiros trabalhos
                 realizados na área de desenvolvimento e teve como objetivo
@@ -151,16 +151,21 @@ function App() {
                 Ver Projeto
               </a>
             </div>
+
+            <div className="projeto">
+              <h2>Art Without Any Walls</h2>
+              <p className="explicacoes">
+                Plataforma focada na divulgação artística criada para TCC.
+                Criada para facilitar a divulgação dos trabalhos artísticos, a plataforma busca
+                conter o máximo de categorias possíveis para acolher diversos tipos de arte.
+              </p>
+              <a href="">Ver Projeto</a>
+            </div>
           </div>
         </section>
 
         <section id="habilidades" className="section-container">
           <h2>Habilidades</h2>
-
-          <p className="txt">
-            Aqui você verá algumas habilidades minhas, meus estudos, as
-            ferramentas que eu utilizo e muito mais
-          </p>
 
           {/* FACILIDADE */}
 
@@ -178,20 +183,13 @@ function App() {
             </div>
 
             <div className="habilidade">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              <p>JavaScript</p>
-            </div>
-
-            <div className="habilidade">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
               <p>MySQL</p>
             </div>
           </div>
 
-          {/* DIFICULDADE */}
-
-          <h3>Linguagens que tenho dificuldade</h3>
-
+          {/* INTERMEDIÁRIO */}
+          <h3>Linguagens que tenho conhecimento intermediário</h3>
           <div className="habilidades-container">
             <div className="habilidade">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
@@ -199,24 +197,8 @@ function App() {
             </div>
 
             <div className="habilidade">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
-              <p>C#</p>
-            </div>
-          </div>
-
-          {/* ESTUDANDO */}
-
-          <h3>Linguagens que estou estudando</h3>
-
-          <div className="habilidades-container">
-            <div className="habilidade">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-              <p>React</p>
-            </div>
-
-            <div className="habilidade">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
-              <p>C#</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+              <p>JavaScript</p>
             </div>
           </div>
 
@@ -243,6 +225,11 @@ function App() {
             <div className="habilidade">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
               <p>PHP</p>
+            </div>
+
+            <div className="habilidade">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+              <p>MongoDB</p>
             </div>
           </div>
 
@@ -298,7 +285,7 @@ function App() {
       </main>
 
       <footer>
-        <p>&copy; 2026 Halls499 - Desenvolvido com foco e café.</p>
+        <p>&copy; 2026 Raul Gonçalves Mazzone - Desenvolvido com foco.</p>
       </footer>
     </>
   );
